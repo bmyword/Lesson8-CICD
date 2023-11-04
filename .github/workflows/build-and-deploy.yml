@@ -2,7 +2,7 @@ name: Publish Docker Release to Docker Hub
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
 
 env:
   IMAGE_NAME:  behminyan/cicd-test-app      # Format: <dockerhub_account>/<repo>
